@@ -1,0 +1,7 @@
+Here's how I uploaded the GRBL code to my Unio using the IDE - not flashing the pre-compiled hex file.  
+* Downloaded the source code from [url=https://github.com/grbl/grbl]GitHub[/url] and put it into a new grbl directory on my computer. 
+* Renamed all the .c files to .cpp
+* Created a grbl.ino file all it does is call startGrbl() in the setup() function.  loop() function is empty
+* Renamed main.c to maingrbl.cpp 
+* Created maingrbl.h.  All it does is have the the line int startGrbl(void);   
+* In maingrbl.cpp I renamed the function main(void) to startGrbl(void).  

@@ -42,7 +42,7 @@
 // Declare system global variable structure
 system_t sys; 
 
-int main(void)
+int startGrbl(void)  // was main(void)
 {
   // Initialize system
   serial_init(); // Setup serial baud rate and interrupts
